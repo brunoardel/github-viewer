@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  title: 'Read Dead is back!',\n  subtitle: 'Come see John’s new adventures',\n  backgroundImage: '/img/red-dead-img.jpg',\n  buttonLabel: 'Buy now',\n  buttonLink: '/games/rdr2'\n};","map":null,"metadata":{},"sourceType":"module"}

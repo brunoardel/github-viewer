@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport * as S from './styles';\n\nconst Ribbon = ({\n  children,\n  color = 'primary',\n  size = 'normal'\n}) => /*#__PURE__*/_jsx(S.Wrapper, {\n  color: color,\n  size: size,\n  children: children\n});\n\nexport default Ribbon;","map":null,"metadata":{},"sourceType":"module"}
