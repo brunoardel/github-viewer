@@ -10,12 +10,12 @@ const Header = () => {
     <div className={classes.header}>
       <Image
         src="/images/logo.png"
-        alt="Just For You - Logo"
-        width={224}
-        height={80}
+        alt="Github - Logo"
+        width={260}
+        height={90}
         className={classes.logo}
       />
-      <h1 className={classes.title}>Github Viewer</h1>
+      <h1 className={classes.title}>Viewer</h1>
     </div>
   )
 }

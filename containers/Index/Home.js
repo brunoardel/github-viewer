@@ -21,6 +21,7 @@ function App() {
 
   async function searchUser() {
     setLoading(true)
+    setError('')
 
     try {
       const { data: repos } = await axios.get(
@@ -29,8 +30,14 @@ function App() {
 
       console.log(repos)
 
-      setRepos(repos)
-      setError('')
+      if (!repos.length) {
+        setError('Usuário não possui nenhum repositório')
+      }
+
+      if (repos) {
+        setRepos(repos)
+      }
+
       setLoading(false)
     } catch (error) {
       setRepos([])
